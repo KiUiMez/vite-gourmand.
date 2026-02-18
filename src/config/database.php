@@ -1,9 +1,9 @@
 <?php
-define('DB_HOST', 'ton_host_infinityfree');
+define('DB_HOST', 'sql308.infinityfree.com');
 define('DB_PORT', '3306');
-define('DB_NAME', 'ton_nom_base');
-define('DB_USER', 'ton_user');
-define('DB_PASSWORD', 'ton_mdp');
+define('DB_NAME', 'if0_41181243_vitegourmand');
+define('DB_USER', 'if0_41181243');
+define('DB_PASSWORD', '(Your vPanel Password)');
 
 function getDB(): PDO {
     static $pdo = null;
